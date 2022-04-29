@@ -96,6 +96,11 @@ h3{
     color: white;
 }
 
+.perso:hover {
+    font-size: 120%;
+    transition: 1s;
+}
+
 /* ---- FOOTER DA PAGINA ----*/
 footer {
     display: flex;
