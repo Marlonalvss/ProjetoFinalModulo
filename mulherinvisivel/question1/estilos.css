@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(https://www.1zoom.me/big/60/58273-aleni.jpg);
+    background-image: url(https://wallpapercave.com/wp/wp10417852.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -50,7 +50,7 @@ height: 80%;
 /* ---- MAIN DA PAGINA ---- */
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -60,56 +60,68 @@ main{
     border-radius: 10px;  
 }
 
-.personagens {
+.resp {
     width: 20%;
-    height: 50vh;
+    height: 5vh;
+    padding-top: 1%;
     background-color: rgba(0, 174, 255, 0.459);
     border-radius: 10px;
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
     font-size: 220%;
     color: aliceblue;
-    padding-top: 19%;
+
 }
 
-#mulherInvisivel {
-    background-image: url(https://i.pinimg.com/originals/cd/2a/db/cd2adb0112cbe15a5914a9553fb05318.jpg);
-    background-position: center;
+.question1{
+    width: 60%;
+    height: 35vh;
+    background-color: rgba(0, 174, 255, 0.788);
     background-size: cover;
+    border-radius: 10px;
+    font-size: 150%;
+    color: black;
 }
 
-#mulherInvisivel:hover {
-    background-image: url(./assets/sueedicao.gif);
-    
-}
-
-#tochaHumana {
-    background-image: url(https://spinoff.com.br/wp-content/uploads/EZCAi1qUYAIw_-D.jpg);
-    background-position: center;
+.q1{
+    width: 60%;
+    height: 10vh;
+    background-color: rgba(0, 174, 255, 0.788);
     background-size: cover;
+    border-radius: 10px;
+    font-size: 150%;
+    color: black;
 }
-#tochaHumana:hover{
-    background-image: url(./assets/tochahumana.gif);
-    
-
-}
-#homemElastico {
-    background-image: url(https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/Quarteto-Fant%C3%A1stico-1.jpg);
-    background-position: center;
+.q2{
+    width: 60%;
+    height: 10vh;
+    background-color: rgba(0, 174, 255, 0.788);
     background-size: cover;
+    border-radius: 10px;
+    font-size: 150%;
+    color: black;
 }
-#homemElastico:hover{
-    background-image: url(./assets/srfantastico.gif);
-    
 
-}
-.subtitulos {
+h3{
+    font-family: fantastic, cursive;
+    text-shadow: #000 2px 3px 2px;
     color: white;
+    font-size: 150%;
+    
+}
+.perso {
     text-decoration: none;
+    font-family: fantastic, cursive;
+    text-shadow: #000 2px 3px 2px;
+    color: white;
+    position: absolute;
+    margin-top: -22px;
+    margin-left: -90px;
+    font-size: 30px;
 }
 
-.subtitulos:hover{
-    font-size: 120%;
+.perso:hover {
+    font-size: 90%;
     transition: 1s;
 }
 
