@@ -132,6 +132,18 @@ footer {
 }
 
 /*-- RESPONSIVIDADE -- */
+@media (max-width: 900px) {
+    .bemvindo {
+        font-size: 130%;
+        width: auto;
+        height: auto;
+    }
+    .personagens {
+        width: auto;
+        height: auto;
+    }
+
+}
 
 @media (max-width: 691px) {
 
