@@ -154,6 +154,10 @@ footer {
         height: 65%;
         font-size: 130%;
     }
+    #mulherInvisivel, #tochaHumana, #homemElastico {
+        padding-top: 275px;
+        font-size: 180%;
+    }
 }
 
 @media (max-width: 691px) {
@@ -163,34 +167,42 @@ footer {
         width: auto;
         height: auto;
     }
+
+    #mulherInvisivel, #tochaHumana, #homemElastico {
+        width: 200px;
+        height: 240px;
+        padding-top: 200px;
+        font-size: 140%;
+    }
     #mulherInvisivel:hover {
         background-image: url(./assets/sueedicao.gif);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 500px;
-        height: 500px;
-        padding-top: 400px;
+        width: 290px;
+        height: 300px;
+        padding-top: 250px;
+        transition: 2s;
     }
     #tochaHumana:hover{
         background-image: url(./assets/tochahumana.gif);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 500px;
-        height: 500px;
-        padding-top: 400px;
-        
-    
+        width: 290px;
+        height: 300px;
+        padding-top: 250px;
+        transition: 2s;
     }
     #homemElastico:hover {
         background-image: url(./assets/srfantastico.gif);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 450px;
-        height: 500px;
-        padding-top: 400px;
+        width: 290px;
+        height: 300px;
+        padding-top: 250px;
+        transition: 2s;
     }
 
 
@@ -211,8 +223,15 @@ footer {
     main {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         width: auto;
         height: auto;
+    }
+
+    #mulherInvisivel, #tochaHumana, #homemElastico {
+        width: 200px;
+        height: 240px;
+        padding-top: 200px;
     }
     #mulherInvisivel:hover {
         background-image: url(./assets/sueedicao.gif);
