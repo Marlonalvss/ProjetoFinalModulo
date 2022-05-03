@@ -211,6 +211,7 @@ footer {
         width: 250px;
         height: 250px;
         padding-top: 200px;
+        transition: 2s;
     }
     #tochaHumana:hover{
         background-image: url(./assets/tochahumana.gif);
@@ -220,6 +221,7 @@ footer {
         width: 250px;
         height: 250px;
         padding-top: 200px;
+        transition: 2s;
         
     
     }
@@ -231,6 +233,7 @@ footer {
         width: 250px;
         height: 250px;
         padding-top: 200px;
+        transition: 2s;
     }
         
 }
