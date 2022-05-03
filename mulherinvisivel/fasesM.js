@@ -61,7 +61,7 @@ function nextStep4(){
         if(question4 === 1){
             location.href ="../final/aboutmovie.html";
         } else if (question4 === 2){
-            location.href ="../index.html";
+            location.href ="https://marlonalvss.github.io/ProjetoFinalModulo/";
         } else {
             alert("Resposta invalida! Por favor, utilize um dos numeros indicados.")
         }
