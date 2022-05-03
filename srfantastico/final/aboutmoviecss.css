@@ -162,6 +162,10 @@ footer {
 
 }
 @media (max-width: 681px) {
+    body {
+        background-image: url(https://m.media-amazon.com/images/M/MV5BNWU1ZjFjMTctYjA5ZC00YTBkLTkzZjUtZWEyMjgxY2MxYWM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg);
+        background-size: cover;
+    }
     main{
         background-size: cover;
         display: flex;
