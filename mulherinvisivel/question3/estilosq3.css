@@ -67,7 +67,7 @@ main{
     border-radius: 10px;
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
-    font-size: 220%;
+    font-size: 150%;
     color: aliceblue;
 
 }
@@ -114,11 +114,11 @@ h3{
     text-shadow: #000 2px 3px 2px;
     color: white;
     position: relative;
-    font-size: 100%;
+    font-size: 150%;
 }
 
 .respo:hover {
-    font-size: 90%;
+    font-size: 170%;
     transition: 1s;
     text-shadow:
       0 0 7px #fff,
@@ -173,7 +173,6 @@ footer {
         font-size: 100%;
         width:auto;
         height: auto;
-        font-size: 150%;
 
     }
     .perso{

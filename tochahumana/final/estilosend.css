@@ -61,9 +61,8 @@ main{
 }
 
 .resp {
-    width: 20%;
-    height: 5vh;
-    padding-top: 1%;
+    width: auto;
+    height: auto;
     background-color: rgba(0, 174, 255, 0.459);
     border-radius: 10px;
     font-family: fantastic, cursive;
@@ -116,14 +115,14 @@ h3{
     
 }
 .respos{
-    width: 50%;
-    height: 10vh;
+    width: auto;
+    height: auto;
     background-color: rgba(0, 174, 255, 0.788);
     background-size: cover;
     border-radius: 10px;
     font-size: 150%;
     color: white;
-    padding-top: 13px;
+    position: relative;
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
     
@@ -133,6 +132,15 @@ h3{
 .respos:hover {
     font-size: 160%;
     transition: 1s;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgba(0, 140, 255, 0.945),
+      0 0 82px rgb(0, 183, 255),
+      0 0 92px rgb(0, 89, 255),
+      0 0 102px rgb(0, 225, 255),
+      0 0 151px rgb(0, 217, 255);
 }
 
 /* ---- FOOTER DA PAGINA ----*/
@@ -154,4 +162,19 @@ footer {
 .marlonlinkedin:hover {
     font-size: 130%;
     transition: 1s;
+}
+/*---- RESPONSIVIDADE ----*/
+@media (max-width: 681px) {
+    main{
+        background-size: cover;
+    }
+    .fimdejogo{
+        width: auto;
+        height: auto;
+    }
+    .q1 , .q2 {
+        width: auto;
+        height: auto;
+    }
+
 }

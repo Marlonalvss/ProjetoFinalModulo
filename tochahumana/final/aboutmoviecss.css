@@ -127,3 +127,53 @@ footer {
     font-size: 130%;
     transition: 1s;
 }
+/*--RESPONSIVIDADE--*/
+@media (max-width: 1250px){
+    .desc {
+        width: 25%;
+        height: auto;
+    }
+    .boxvideo {
+        width: auto;
+        height: auto;
+    }
+    .vd {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 860px) {
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .desc {
+        width: auto;
+        height: auto;
+    }
+    .boxvideo {
+        width: auto;
+        height: auto;
+    }
+    .vd {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media (max-width: 681px) {
+    main{
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .vd {
+        width: 100%;
+        height: 100%;
+    }
+    .desc {
+        width: auto;
+        height: auto;
+    }
+
+}
