@@ -115,12 +115,21 @@ h3{
     color: white;
     position: relative;
     margin-left: 1px;
-    font-size: 150%;
+    font-size: 180%;
 }
 
 .respo:hover {
-    font-size: 90%;
+    font-size: 190%;
     transition: 1s;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgba(0, 140, 255, 0.945),
+      0 0 82px rgb(0, 183, 255),
+      0 0 92px rgb(0, 89, 255),
+      0 0 102px rgb(0, 225, 255),
+      0 0 151px rgb(0, 217, 255);
 }
 
 /* ---- FOOTER DA PAGINA ----*/
