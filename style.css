@@ -140,12 +140,47 @@ footer {
    
     .personagens {
         width: 30%;
-        height: auto;
+        height: 65%;
         font-size: 130%;
     }
 }
 
 @media (max-width: 691px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    #mulherInvisivel:hover {
+        background-image: url(./assets/sueedicao.gif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+        padding-top: 400px;
+    }
+    #tochaHumana:hover{
+        background-image: url(./assets/tochahumana.gif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+        padding-top: 400px;
+        
+    
+    }
+    #homemElastico:hover {
+        background-image: url(./assets/srfantastico.gif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 500px;
+        padding-top: 400px;
+    }
 
 
     .personagens {
@@ -165,6 +200,37 @@ footer {
     main {
         display: flex;
         flex-direction: column;
+        width: auto;
+        height: auto;
     }
-
+    #mulherInvisivel:hover {
+        background-image: url(./assets/sueedicao.gif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+        padding-top: 400px;
+    }
+    #tochaHumana:hover{
+        background-image: url(./assets/tochahumana.gif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+        padding-top: 400px;
+        
+    
+    }
+    #homemElastico:hover {
+        background-image: url(./assets/srfantastico.gif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 500px;
+        padding-top: 400px;
+    }
+        
 }
