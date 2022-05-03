@@ -133,3 +133,38 @@ footer {
     font-size: 130%;
     transition: 1s;
 }
+
+/*-- RESPONSIVIDADE -- */
+
+@media (max-width:1000px){
+   
+    .personagens {
+        width: 30%;
+        height: auto;
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 691px) {
+
+
+    .personagens {
+        width: 30%;
+        height: auto;
+        font-size: 130%;
+    }
+    
+    body{
+        background-size: cover;
+        background-image: url(https://i.pinimg.com/originals/d1/57/60/d157607e0cc50bb4425ddb58d9435f9e.jpg);
+    }
+   
+}
+@media (max-width: 519px){
+   
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

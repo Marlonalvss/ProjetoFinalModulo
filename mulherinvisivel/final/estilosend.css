@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(./endscene.gif);
+    background-image: url(../assets/endsceneend.gif);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -60,18 +60,7 @@ main{
     border-radius: 10px;  
 }
 
-.resp {
-    width: 20%;
-    height: 5vh;
-    padding-top: 1%;
-    background-color: rgba(0, 174, 255, 0.459);
-    border-radius: 10px;
-    font-family: fantastic, cursive;
-    text-shadow: #000 2px 3px 2px;
-    font-size: 220%;
-    color: aliceblue;
 
-}
 
 .fimdejogo{
     width: 60%;
@@ -116,14 +105,14 @@ h3{
     
 }
 .respos{
-    width: 50%;
-    height: 10vh;
+    width: auto;
+    height: auto;
     background-color: rgba(0, 174, 255, 0.788);
     background-size: cover;
     border-radius: 10px;
     font-size: 150%;
     color: white;
-    padding-top: 13px;
+    position: relative;
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
     
@@ -154,4 +143,19 @@ footer {
 .marlonlinkedin:hover {
     font-size: 130%;
     transition: 1s;
+}
+/*--RESPONSIVIDADE--*/
+@media (max-width: 681px) {
+    main{
+        background-size: cover;
+    }
+    .fimdejogo{
+        width: auto;
+        height: auto;
+    }
+    .q1 , .q2 {
+        width: auto;
+        height: auto;
+    }
+
 }

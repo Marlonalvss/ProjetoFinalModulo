@@ -61,9 +61,8 @@ main{
 }
 
 .personagens {
-    width: 5%;
-    height: 10vh;
-    padding-top: 1%;
+    width: auto;
+    height: auto;
     background-color: rgba(0, 174, 255, 0.459);
     border-radius: 10px;
     font-family: fantastic, cursive;
@@ -76,7 +75,7 @@ main{
 .bemvindo{
     width: 60%;
     height: 40vh;
-    background-color: rgba(0, 174, 255, 0.459);
+    background-color: rgba(0, 174, 255, 0.671);
     background-size: cover;
     border-radius: 10px;
     font-size: 150%;
@@ -120,4 +119,32 @@ footer {
 .marlonlinkedin:hover {
     font-size: 130%;
     transition: 1s;
+}
+
+/*-- RESPONSIVIDADE -- */
+
+@media (max-width: 691px) {
+
+    .bemvindo {
+        font-size: 130%;
+        width: auto;
+        height: auto;
+    }
+    .personagens {
+        width: auto;
+        height: auto;
+    }
+    
+    body{
+        background-size: cover;
+        background-image: url(https://i.pinimg.com/originals/d1/57/60/d157607e0cc50bb4425ddb58d9435f9e.jpg);
+    }
+   
+}
+@media (max-width: 519px){
+    .bemvindo {
+        width: auto;
+        height: auto;
+    }
+
 }

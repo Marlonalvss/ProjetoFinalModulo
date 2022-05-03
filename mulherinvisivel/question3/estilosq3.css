@@ -61,9 +61,8 @@ main{
 }
 
 .resp {
-    width: 20%;
-    height: 5vh;
-    padding-top: 1%;
+    width: auto;
+    height: auto;
     background-color: rgba(0, 174, 255, 0.459);
     border-radius: 10px;
     font-family: fantastic, cursive;
@@ -114,10 +113,8 @@ h3{
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
     color: white;
-    position: absolute;
-    margin-top: -22px;
-    margin-left: -90px;
-    font-size: 30px;
+    position: relative;
+    font-size: 100%;
 }
 
 .respo:hover {
@@ -144,4 +141,36 @@ footer {
 .marlonlinkedin:hover {
     font-size: 130%;
     transition: 1s;
+}
+/*---- RESPONSIVIDADE----*/
+@media (max-width: 1000px) {
+    .question3 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+
+    .q1 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+    .q2 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+    .resp{
+        font-size: 100%;
+        width:auto;
+        height: auto;
+        font-size: 150%;
+
+    }
+    .perso{
+        width: auto;
+        height: auto;
+        font-size: 100%;
+    }
+
 }

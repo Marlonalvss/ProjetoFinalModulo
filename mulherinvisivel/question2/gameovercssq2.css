@@ -25,6 +25,8 @@ body {
 
 /* ---- HEADER DA PAGINA ---- */
 
+/* ---- HEADER DA PAGINA ---- */
+
 header{
     background-color: rgba(0, 0, 255, 0.192);
     width: 100%;
@@ -60,9 +62,8 @@ main{
     border-radius: 10px;  
 }
 .voltar1 {
-    width: 12%;
-    height: 6vh;
-    padding-top: 1%;
+    width: auto;
+    height: auto;
     background-color: rgba(0, 174, 255, 0.459);
     border-radius: 10px;
     font-family: fantastic;
@@ -81,6 +82,7 @@ main{
     font-size: 150%;
     color: black;
 }
+
 h3{
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
@@ -92,9 +94,8 @@ h3{
     font-family: fantastic, cursive;
     text-shadow: #000 2px 3px 2px;
     color: white;
-    position: absolute;
-    margin-top: -21px;
-    margin-left: -80px;
+    position: relative;
+    margin-left: 1px;
 }
 
 .volt:hover {
@@ -121,4 +122,28 @@ footer {
 .marlonlinkedin:hover {
     font-size: 130%;
     transition: 1s;
+}
+/*--RESPONSIVIDADE--*/
+@media (max-width: 1000px) {
+    main{
+        background-size: cover;
+    }
+    .gameover {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+
+   .voltar1 {
+       width: auto;
+       height: auto; 
+   }
+   .volt{
+       font-size: 80%;
+       position: relative;
+       width: auto;
+       height: auto;
+       margin-left: 1px;
+   }
+
 }
