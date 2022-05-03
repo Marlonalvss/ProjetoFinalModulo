@@ -184,3 +184,61 @@ footer {
     }
 
 }
+@media (max-width: 400px){
+    .question3 {
+        font-size: 110%;
+        width: auto;
+        height: auto;
+    }
+
+    .q1 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+    .q2 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+    .resp{
+        font-size: 100%;
+        width:auto;
+        height: auto;
+
+    }
+    .perso{
+        width: auto;
+        height: auto;
+        font-size: 100%;
+    }
+}
+@media (max-width: 400px){
+    .question3 {
+        font-size: 110%;
+        width: auto;
+        height: auto;
+    }
+
+    .q1 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+    .q2 {
+        font-size: 110%;
+        width: 50%;
+        height: auto;
+    }
+    .resp{
+        font-size: 100%;
+        width:auto;
+        height: auto;
+
+    }
+    .perso{
+        width: auto;
+        height: auto;
+        font-size: 100%;
+    }
+}
