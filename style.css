@@ -208,18 +208,18 @@ footer {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 500px;
-        height: 500px;
-        padding-top: 400px;
+        width: 250px;
+        height: 250px;
+        padding-top: 200px;
     }
     #tochaHumana:hover{
         background-image: url(./assets/tochahumana.gif);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 500px;
-        height: 500px;
-        padding-top: 400px;
+        width: 250px;
+        height: 250px;
+        padding-top: 200px;
         
     
     }
@@ -228,9 +228,9 @@ footer {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        width: 450px;
-        height: 500px;
-        padding-top: 400px;
+        width: 250px;
+        height: 250px;
+        padding-top: 200px;
     }
         
 }
