@@ -145,23 +145,23 @@ footer {
 /*---- RESPONSIVIDADE----*/
 @media (max-width: 1000px) {
     .question1 {
-        font-size: 110%;
-        width: 50%;
+        font-size: 120%;
+        width: auto;
         height: auto;
     }
 
     .q1 {
-        font-size: 100%;
-        width: 50%;
+        font-size: 120%;
+        width:60%;
         height: auto;
     }
     .q2 {
-        font-size: 100%;
-        width: 50%;
+        font-size: 120%;
+        width:60%;
         height: auto;
     }
     .resp{
-        font-size: 100%;
+        font-size: 120%;
         width:auto;
         height: auto;
 
