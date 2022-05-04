@@ -183,6 +183,11 @@ footer {
     }
 
 }
+@media (max-width: 500px){
+    body{
+        background-position-x: center;
+    }
+}
 @media (max-width: 400px){
     .question3 {
         font-size: 110%;

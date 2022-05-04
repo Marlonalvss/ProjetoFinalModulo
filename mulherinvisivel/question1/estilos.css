@@ -154,6 +154,7 @@ footer {
 }
 /*---- RESPONSIVIDADE----*/
 @media (max-width: 1000px) {
+
     .question1 {
         font-size: 120%;
         width: auto;
@@ -182,4 +183,10 @@ footer {
         font-size: 110%;
     }
 
+}
+
+@media (max-width: 500px){
+    body{
+        background-position-x: center;
+    }
 }
