@@ -115,6 +115,7 @@ h3{
     color: white;
     position: relative;
     font-size: 150%;
+    cursor: pointer;
 }
 
 .perso:hover {
